@@ -1,5 +1,4 @@
-# Michael, Technologist
-## Code Resume and Speaking Decks
+# Michael Cole, Technologist
 
 Hi, my name is Michael and I'm a technologist.  
 
@@ -14,6 +13,21 @@ Below are examples of **technology experiments**, **personal projects**, and **s
 > These are not polished "products", but experiments I took as far as was fun.  
 > 
 > Like all art, code is never finished, it must be  abandoned.
+
+## WebVR, Web Workers, and WebAssembly
+
+<iframe src="https://michaeljcole.github.io/n-body-wasm-canvas/" style="height: 80vh; width: 80vw"></iframe>
+
+## Speaking Decks
+
+### Web Workers
+[Web Workers, Service Workers, and PWAs](https://slides.com/michaelcole/deck-1-6-5/live#/) introduces Web Workers (used in the demos above) then shows how Service Workers are the crucial technology that enables “off-line” PWA's.
+
+### MapReduce
+
+[MapReduce Talk Slides](https://slides.com/michaelcole/deck-1-6/live#/) This is a great talk on MapReduce for non-coder "data scientist" groups.  It covers MapReduce starting with JavaScript for the fundamentals, and moves to MongoDB + Wikipedia’s dataset for the fun.
+
+The beginning slides show “white cards” and are an interactive experience getting an audience to create their own dataset (on 3x5 cards), then MapReduce it to answer questions. From there, we build some examples using JavaScript, then look at MapReducing the Wikipedia dataset using MongoDB.
 
 ## Quathers - Full-stack Starter Project
 Tech:  Vue.js, Quasar, Material Design, FeathersJS, Node, Express, MongoDB, Docker, Authentication
@@ -69,19 +83,3 @@ While not a tech in itself, here are a series of experiments I created while lea
 
 My take-away was that unless the project needs a “game loop”, gamification can be accomplished without Phaser.io.
 
-# Speaker Decks
-
-## Web Workers
-Here is a talk I like to give on Web Workers and Service Workers that frames the “off-line” technology used in SPA’s
-
-## MapReduce
-Nom nom nom!  Big Data!  How can we process all this data?  MapReduce is a parallel processing algorithm.
-
-Here is a talk I like to give on MapReduce starting with JavaScript for the fundamentals, and MongoDB + Wikipedia’s dataset for the fun.  
-
-The slides with “white cards” are an interactive experience getting an audience to create their own dataset, then MapReduce it to answer questions.
-From there, we build some examples using JavaScript, then look at MapReducing the Wikipedia dataset using MongoDB.
-
-This is a great talk for non-technical “data science” groups.
-Scaling APIs with Performance Testing
-The tools in this talk might be dated, but the principles remain the same.
